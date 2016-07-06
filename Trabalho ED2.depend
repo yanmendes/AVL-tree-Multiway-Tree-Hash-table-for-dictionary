@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1467651934 source:/home/yanmendes/Documents/Trabalho ED2/main.cpp
+	"Reader.hpp"
+	<fcntl.h>
+
+1467564902 source:/home/yanmendes/Documents/Trabalho ED2/Arvore_AVL.cpp
+	"Arvore_AVL.hpp"
+
+1467571700 /home/yanmendes/Documents/Trabalho ED2/Arvore_AVL.hpp
+	"Estrutura.hpp"
+	"No_AVL.hpp"
+
+1467571675 /home/yanmendes/Documents/Trabalho ED2/Estrutura.hpp
+	"Helper.hpp"
+
+1467571244 /home/yanmendes/Documents/Trabalho ED2/Helper.hpp
+	<string>
+	<iostream>
+	<locale>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<fstream>
+	<list>
+	<cstdlib>
+	<dirent.h>
+	<cwchar>
+	<algorithm>
+	<time.h>
+	<cstring>
+
+1467562193 /home/yanmendes/Documents/Trabalho ED2/No_AVL.hpp
+	"Helper.hpp"
+
+1467571353 source:/home/yanmendes/Documents/Trabalho ED2/Arvore_Multiway.cpp
+	"Arvore_Multiway.hpp"
+
+1467571708 /home/yanmendes/Documents/Trabalho ED2/Arvore_Multiway.hpp
+	"No_Multiway.hpp"
+	"Estrutura.hpp"
+
+1466892234 /home/yanmendes/Documents/Trabalho ED2/No_Multiway.hpp
+
+1467571641 source:/home/yanmendes/Documents/Trabalho ED2/Helper.cpp
+	"Helper.hpp"
+
+1467563212 /home/yanmendes/Documents/Trabalho ED2/Reader.hpp
+	"Arvore_Multiway.hpp"
+	"Arvore_AVL.hpp"
+	"Tabela_Hash.hpp"
+
+1467648821 /home/yanmendes/Documents/Trabalho ED2/Tabela_Hash.hpp
+	"Registro_Hash.hpp"
+	"Estrutura.hpp"
+
+1467563189 /home/yanmendes/Documents/Trabalho ED2/Registro_Hash.hpp
+	"Helper.hpp"
+
+1467571653 source:/home/yanmendes/Documents/Trabalho ED2/No_Multiway.cpp
+	"No_Multiway.hpp"
+	"Helper.hpp"
+
+1467603587 source:/home/yanmendes/Documents/Trabalho ED2/Reader.cpp
+	"Reader.hpp"
+
+1466789204 source:/home/yanmendes/Documents/Trabalho ED2/Registro_Hash.cpp
+	"Registro_Hash.hpp"
+
+1467661847 source:/home/yanmendes/Documents/Trabalho ED2/Tabela_Hash.cpp
+	"Tabela_Hash.hpp"
+
