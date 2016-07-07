@@ -31,9 +31,9 @@ int main(int argc, const char * argv[]) {
         struct_type = argv[4];
         hashFunction = argv[5];
     } else {
-        diretorio_dicionario = "/home/yanmendes/Desktop/Instâncias\ ed2/Dicionarios_ingles/";
-        diretorio_textos = "/home/yanmendes/Desktop/Instâncias\ ed2/Textos_ingles/TE7/";
-        arquivo_output = "/home/yanmendes/Desktop/Instâncias\ ed2/output.txt";
+        diretorio_dicionario = "/Users/yanferreira/Documents/Faculdades/Ufjf/Estrutura\ de\ dados\ II/Projetos/Trabalho\ ED2/Trabalho\ ED2/Instâncias\ ed2/Dicionarios_ingles/";
+        diretorio_textos = "/Users/yanferreira/Documents/Faculdades/Ufjf/Estrutura\ de\ dados\ II/Projetos/Trabalho\ ED2/Trabalho\ ED2/Instâncias\ ed2/Textos_ingles/TE8/";
+        arquivo_output = "/Users/yanferreira/Desktop/output.txt";
         struct_type = "1";
         hashFunction = "2";
     }

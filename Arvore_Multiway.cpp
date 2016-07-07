@@ -33,7 +33,7 @@ bool Arvore_Multiway::busca(string search_string)
         }
 
         // (3)
-        if(aux == NULL || !aux->used[position]){
+        if(aux == NULL || !aux->used[position] || aux->filhos == NULL){
             break;
         }
 
@@ -48,6 +48,7 @@ bool Arvore_Multiway::busca(string search_string)
     i == length - 1
     && aux != NULL
     && helper.getCodeByAsc(search_string.at(i)) != -1
+    && aux->lastLetter != NULL
     && aux->lastLetter[helper.getCodeByAsc(search_string.at(i))];
 }
 

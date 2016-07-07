@@ -100,12 +100,12 @@ void Reader::buscaDicionario(Estrutura * corretor, Estrutura * estrutura, ifstre
     string linha;
 
     while(file >> linha){
-        if(linha == "")
+        string palavra = helper.normalize(linha);
+        
+        if(palavra == "")
             continue;
 
-        string palavra = helper.normalize(linha);
-
-        if(palavra == "" && !estrutura->busca(palavra)){
+        if(!estrutura->busca(palavra)){
             corretor->insere(palavra);
         }
     }
