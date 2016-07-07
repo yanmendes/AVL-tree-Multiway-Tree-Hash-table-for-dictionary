@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
     const char * struct_type;
     const char * hashFunction;
 
-    bool production = false;
+    bool production = true;
 
     if(production){
         diretorio_dicionario = argv[1];
