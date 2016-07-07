@@ -53,7 +53,7 @@ int main(int argc, const char * argv[]) {
         estrutura = new Tabela_Hash(reader->getNumRegistros(diretorio_dicionario), atoi(hashFunction));
         break;
 
-        case 3:
+        deafult:
         estrutura = new Arvore_Multiway();
         break;
     }
